@@ -1,0 +1,14 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Company.Master" AutoEventWireup="true" CodeBehind="De.master.cs" Inherits="_02.Company.De" %>
+<asp:Content ID="HeadContent" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="MainContent" ContentPlaceHolderID="ContentPlaceHolderMain" runat="server">
+    <div class="de-sidebar-title">
+            <a href="~/DeHome.aspx" runat="server">Home</a>
+            <a href="~/DeAbout.aspx" runat="server">Unternehmen</a>
+            <a href="~/DeContacts.aspx" runat="server">Kontakt</a>
+        </div>
+        <section id="main-content">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolderDe" runat="server">
+            </asp:ContentPlaceHolder>
+        </section>
+</asp:Content>

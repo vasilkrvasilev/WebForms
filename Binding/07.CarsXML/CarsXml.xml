@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<cars>
+  <car>
+    <producer>BMW</producer>
+    <model>Izetta</model>
+    <engine>Diesel</engine>
+  </car>
+  <car>
+    <producer>BMW</producer>
+    <model>M</model>
+    <engine>Hybrid</engine>
+  </car>
+  <car>
+    <producer>Toyota</producer>
+    <model>Yaris</model>
+    <engine>Electric</engine>
+  </car>
+</cars>

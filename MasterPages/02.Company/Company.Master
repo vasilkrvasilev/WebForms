@@ -1,0 +1,34 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Company.master.cs" Inherits="_02.Company.Company" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form" runat="server">
+    <header id="header"> International Company Ltd. </header>
+        <div class="sidebar-title">
+            <asp:HyperLink ID="bgSite" runat="server" NavigateUrl="~/BgHome.aspx">
+                <asp:Image ID="bgImage" runat="server" ImageUrl="~/bg.png" Width="50px" Height="50px" />
+            </asp:HyperLink>
+            <asp:HyperLink ID="deSite" runat="server" NavigateUrl="~/DeHome.aspx">
+                <asp:Image ID="deImage" runat="server" ImageUrl="~/de.png" Width="50px" Height="50px" />
+            </asp:HyperLink>
+            <asp:HyperLink ID="enSite" runat="server" NavigateUrl="~/EnHome.aspx">
+                <asp:Image ID="enImage" runat="server" ImageUrl="~/en.png" Width="50px" Height="50px" />
+            </asp:HyperLink>
+        </div>
+        <section id="main-content">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolderMain" runat="server">
+            </asp:ContentPlaceHolder>
+        </section>
+        <footer id="footer">
+            (c) 2013
+        </footer>
+    </form>
+</body>
+</html>

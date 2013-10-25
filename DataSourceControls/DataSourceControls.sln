@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "World.Data", "World.Data\World.Data.csproj", "{71A0A97B-20D3-4DE6-853D-4D7835406F77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.MasterDatails", "01.MasterDatails\01.MasterDatails.csproj", "{0BCF0C4E-961B-4E4B-9E1C-CAEBE61E9544}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.TodoListApp", "02.TodoListApp\02.TodoListApp.csproj", "{0F0DCB7E-59DF-451A-832A-77845DE267EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71A0A97B-20D3-4DE6-853D-4D7835406F77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71A0A97B-20D3-4DE6-853D-4D7835406F77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71A0A97B-20D3-4DE6-853D-4D7835406F77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71A0A97B-20D3-4DE6-853D-4D7835406F77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BCF0C4E-961B-4E4B-9E1C-CAEBE61E9544}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BCF0C4E-961B-4E4B-9E1C-CAEBE61E9544}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BCF0C4E-961B-4E4B-9E1C-CAEBE61E9544}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BCF0C4E-961B-4E4B-9E1C-CAEBE61E9544}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F0DCB7E-59DF-451A-832A-77845DE267EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F0DCB7E-59DF-451A-832A-77845DE267EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F0DCB7E-59DF-451A-832A-77845DE267EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F0DCB7E-59DF-451A-832A-77845DE267EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

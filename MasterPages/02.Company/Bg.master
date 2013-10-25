@@ -1,0 +1,14 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Company.Master" AutoEventWireup="true" CodeBehind="Bg.master.cs" Inherits="_02.Company.Bg" %>
+<asp:Content ID="HeadContent" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="MainContent" ContentPlaceHolderID="ContentPlaceHolderMain" runat="server">
+    <div class="bg-sidebar-title">
+            <a href="~/BgHome.aspx" runat="server">Начало</a>
+            <a href="~/BgAbout.aspx" runat="server">За нас</a>
+            <a href="~/BgContacts.aspx" runat="server">Контанти</a>
+        </div>
+        <section id="main-content">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolderBg" runat="server">
+            </asp:ContentPlaceHolder>
+        </section>
+</asp:Content>

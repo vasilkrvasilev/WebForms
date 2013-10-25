@@ -1,0 +1,29 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Profile.Master.cs" Inherits="_01.Profile.Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form" runat="server">
+    <header id="header"> My Profile </header>
+        <div class="sidebar-title">
+            <a href="~/Home.aspx" runat="server">Home</a>
+            <a href="~/About.aspx" runat="server">About</a>
+            <a href="~/Friends.aspx" runat="server">Friends</a>
+            <a href="~/Contacts.aspx" runat="server">Contacts</a>
+        </div>
+        <section id="main-content">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolderMain" runat="server">
+            </asp:ContentPlaceHolder>
+        </section>
+        <footer id="footer">
+            (c) 2013
+        </footer>
+    </form>
+</body>
+</html>
